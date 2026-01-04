@@ -1,1 +1,32 @@
 
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
+logs/
+
+# === Environnements / secrets ===
+.env
+.env.*
+!.env.example
+
+# === Dépendances ===
+node_modules/
+vendor/
+__pycache__/
+*.pyc
+
+# === Build / dist ===
+dist/
+build/
+out/
+
+# === IDE / éditeurs ===
+.vscode/
+.idea/
+*.swp
+
+# === Git ===
+.gitignore
